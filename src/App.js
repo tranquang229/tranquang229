@@ -29,6 +29,7 @@ function App() {
         <p>Email: {user.email}</p>
         <p>Login at: {user.metadata.lastSignInTime}</p>
         <br />
+        <br />
         <p>FirstName: {tokenOAuthResponse.firstName}</p>
         <p>FirstName: {tokenOAuthResponse.lastName}</p>
         <p>oauthAccessToken: {tokenOAuthResponse.oauthAccessToken}</p>
